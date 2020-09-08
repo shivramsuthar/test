@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+const http = require('http');
+const port = process.env.PORT || 3000
 
 ReactDOM.render(
   <React.StrictMode>
