@@ -80,7 +80,7 @@ class Login extends Component {
                             {formErrors.password}</span>)}
 
                         <Form.Group as={Row}>
-                            <Button type="submit" className="btn btn-success" onClick={this.handlesummit} >Signup</Button>
+                            <Button type="submit" className="btn btn-success" onClick={this.handlesummit} >Log In</Button>
                         </Form.Group>
                     </Form>
                 </div>
