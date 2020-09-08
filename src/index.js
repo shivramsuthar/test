@@ -5,7 +5,7 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 const http = require('http');
 const port = process.env.PORT || 3000
-app.listen(port, () => console.log(`Example app listening on port ${port}!`))
+
 ReactDOM.render(
   <React.StrictMode>
     <App />
