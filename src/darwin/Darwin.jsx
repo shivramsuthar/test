@@ -13,6 +13,7 @@ class Darwin extends Component {
         <Router>
           <>  <div className="switch">
             <Switch >
+              <Route path="/" exact component={Login} />
               <Route path="/login" component={Login} />
               <AuthenticatedRoute path="/welcome" component={Welcome} />
               <Route path="/Logout" component={Logout} />
